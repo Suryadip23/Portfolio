@@ -43,15 +43,16 @@ span{
    color: white;
    font-weight: 500;
    margin: 0 20px;
-   border-bottom: 3px solid transparent;
-   transition: 0.3s ease;
+ 
+   transition: 0.3s all ease;
+  
 }
-.navbar a:hover,
-.navbar a.active{
+.navbar a:hover{
     color: orangered;
-    border-bottom: 3px solid orangered;
+   
 
 }
+
 .contact{
     padding: 10px 28px;
     background-color: white;
@@ -62,6 +63,7 @@ span{
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.5s ease;
+    
 }
 .contact:hover{
     background-color: orangered;
@@ -91,6 +93,8 @@ span{
     font-size: 60px;
     line-height: 1.2;
 }
+
+
 .home-content p{
 
     font-size: 18px;
@@ -201,18 +205,27 @@ span{
 }
 
 .contact-form h2{
+    padding-top: 12rem;
     text-align: center;
     margin-top: 2em;
-   
-    font-size: 36px;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 40px;
 
 }
 .contact-form form{
-   
+    padding-bottom: 3rem;
     margin: 2rem auto;
     text-align: center;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
+    background-color: black;
 }
+.contact-me p{
+    background-color: rgb(218, 58, 0);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
 .contact-form form .input-box{
    
     display: flex;
@@ -299,4 +312,85 @@ span{
     text-align: center;
     font-size: 12px;
     color: white;
+}
+
+.Services{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    font-size: 75px;
+    width: 1130px;
+    text-align: center;
+    margin: 30px auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 375px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #ac2b00;
+    border-radius: 30px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px orangered, 0 0 60px orangered;
+    background: orangered;
+    cursor: pointer;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+}
+
+.card h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.p p{
+    color: rgb(224, 224, 224);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: #000;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 20px;
+    transition: .4s;
+    box-shadow: 0px 0px 15px ghostwhite;
+}
+.card .button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 0px ghostwhite;
+}
+.end{
+   width: 100%;
+   height: 160px;
+   background: #ac2b00;
+}
+.end p{
+    color: rgb(28, 28, 28);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
